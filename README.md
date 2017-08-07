@@ -34,12 +34,12 @@ With PHPWord, you can create OOXML, ODF, or RTF documents dynamically using your
 *   [Libraries API](/project/libraries) module.
 *   [X Autoload](/project/xautoload) module.
 *   [PHPOffice-Common](/project/phpoffice_common) library module.
-*   [Zend Stdlib](/project/zend_stdlibd) library module (optional - required for create document from templates).
+*   [Zend Stdlib](/project/PHPWordd) library module (optional - required for create document from templates).
 
 ### Installation
 
-*   Download [PHPWord](https://github.com/PHPOffice/PHPWord) library, unzip and rename folder to "**zend_stdlib**".
-*   Put the folder in a libraries directory (example: _sites/all/libraries/**zend_stdlib**_).
+*   Download [PHPWord](https://github.com/PHPOffice/PHPWord) library, unzip and rename folder to "**PHPWord**".
+*   Put the folder in a libraries directory (example: _sites/all/libraries/**PHPWord**_).
 *   Install and enable [Libraries API](/project/libraries) 2.x.
 *   Install and enable [X Autoload](/project/xautoload).
 *   Install and enable [PHPOffice-Common](/project/phpoffice_common).
