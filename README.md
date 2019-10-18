@@ -6,4 +6,20 @@ PHPWord module integrates the [PHPWord](https://github.com/PHPOffice/PHPWord) li
 Check PHPWord [document](https://github.com/PHPOffice/PHPWord#features).
 
 ### Examples
+
+#### Writer
+```php
+/** PhpOffice\PhpWord\PhpWord **/
+$writer = \Drupal::service('phpword.writer');
+
+// New portrait section
+$section = $writer->addSection();
+
+// Simple text
+$section->addTitle('Welcome to PhpWord', 1);
+$section->addText('Hello World!');
+
+$writer->save('welcome.docx', 'Word2007');
+```
+
 Check [samples folder](https://github.com/PHPOffice/PHPWord/blob/develop/samples). You can also read the [Developers' Documentation](http://phpword.readthedocs.io/en/latest/) and the [API Documentation](http://phpoffice.github.io/PHPWord/docs/master/) for more detail. If you find some bugs (or futures) - please tell me about in [issue](https://www.drupal.org/node/add/project-issue/phpword) for examples.
