@@ -1,0 +1,4 @@
+name: PHPWord
+type: module
+description: Provides an API for using the <a href="https://github.com/PHPOffice/PHPWord" target="_blank">PHPWord</a> library.
+core: 8.x

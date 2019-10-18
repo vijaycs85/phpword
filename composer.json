@@ -1,0 +1,9 @@
+{
+  "name": "drupal/phpword",
+  "description": "Provides an API for using the PHPOffice/PHPWord library.",
+  "license": "GPL-2.0+",
+  "type": "drupal-module",
+  "require": {
+    "phpoffice/phpword": "0.17.0"
+  }
+}

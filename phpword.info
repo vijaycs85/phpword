@@ -1,9 +1,0 @@
-name           = PHPWord
-description    = Provides an API for using the <a href="https://github.com/PHPOffice/PHPWord" target="_blank">PHPWord</a> library.
-core           = 7.x
-
-php            = 5.3
-
-dependencies[] = libraries
-dependencies[] = phpoffice_common
-dependencies[] = xautoload
